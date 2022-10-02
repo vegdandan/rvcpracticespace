@@ -1,0 +1,112 @@
+ 
+
+#branding {
+    color: black;
+    padding-top: 1em;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    margin-bottom: 0px;
+} 
+
+h2 {
+    font-style: italic;
+}
+
+
+#logo {
+    height: 150px;
+    width: 150px;
+}
+
+#heading {
+    padding-top: 1.5em;
+}
+
+
+.nav-item {
+    text-decoration: none;
+    color: darkred;
+    display: inline; 
+} 
+
+#bottomNavbar .nav-item {
+    padding: 0.75em;
+}
+
+
+
+#infoLink {
+    padding-right: 2em;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+body {
+        font-family: 'Rubik', sans-serif;
+  }
+
+
+  #footerDate {
+    color: grey;
+    font-size: 10px;
+}
+
+#email {
+    color: darkred;
+}
+
+#bookings {
+    background-color: lightgrey;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em
+    
+}
+
+#detailsTitle {
+    font-size: 32px;
+}
+
+/* Mobile  */
+
+  @media (max-width: 767px) {
+
+        h1 {
+            font-size: 18px;
+        }
+        
+        h2 {
+            font-size: 14px;
+        }
+
+        #logo {
+            width: 80px;
+            height: 80px;
+        }
+
+        #heading {
+            padding-top: 0.75em;
+        }
+        #infoLink {
+            padding-right: 1em;
+        }
+
+        p  {
+            font-size: 10px;
+        }
+
+        p #detailsTitle {
+            font-size: 16px;
+        }
+
+        #bookings {
+            padding: 0.5;
+        }
+
+    }
+
+
+
